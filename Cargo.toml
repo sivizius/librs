@@ -1,0 +1,17 @@
+[package]
+name                                    =   "librs"
+description                             =   "Like libc, but in rust. Including POSIX/Linux Syscalls and Wrapper."
+version                                 =   "0.1.0"
+authors                                 =   [
+                                              "Sebastian Walz <sivizius@ohai.su>",
+                                            ]
+edition                                 =   "2018"
+license                                 =   "MIT"
+repository                              =   "https://github.com/sivizius/librs"
+
+[dependencies]
+const_type                              =   "0.1.3"
+bitflags                                =   "1.2"
+
+[lib]
+path                                    =   "source/lib.rs"
